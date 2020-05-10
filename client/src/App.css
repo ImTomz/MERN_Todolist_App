@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121015;
+}
+.input-div {
+  min-width: 35vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+
+.todo-input {
+  border: none;
+  font-size: 1.7rem;
+  padding: 1vh 3vh;
+  width: 28vw;
+}
+
+.add-btn {
+  padding: 1vh 3vh;
+  font-size: 1.7rem;
+  background-color: green;
+  border: none;
+  margin-left: 3vw;
+}
+.add-btn:active,
+.remove-btn:active,
+.complete:active {
+  background-color: grey;
+}
+.remove-btn {
+  background-color: red;
+  border: none;
+  font-size: 1.7rem;
+  padding: 1vh 3vh;
+  margin-left: 3vw;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20vh;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo {
+  display: flex;
+  min-width: 35vw;
+  justify-content: space-between;
+  margin-top: 3vh;
+}
+
+.todo-title {
+  min-width: 28vw;
+  max-width: 60vw;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 1.7rem;
+  padding: 1vh 3vh;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-complete {
+  background-color: grey;
+  text-decoration: line-through;
+}
+
+.complete {
+  background-color: green;
+}
