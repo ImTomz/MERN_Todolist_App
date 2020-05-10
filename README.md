@@ -2,6 +2,15 @@
 
 ![](Screenshot.png)
 
+
+## Installation
+
+In the client directory:
+### `npm install`
+In the server directory:
+### `npm install`
+
+
 ## Available Scripts on client side
 
 In the client directory, you can run:
